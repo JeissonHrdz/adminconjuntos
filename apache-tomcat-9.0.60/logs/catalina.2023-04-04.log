@@ -1,0 +1,896 @@
+04-Apr-2023 09:40:53.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.60
+04-Apr-2023 09:40:53.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 9 2022 14:52:25 UTC
+04-Apr-2023 09:40:53.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.60.0
+04-Apr-2023 09:40:53.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+04-Apr-2023 09:40:53.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+04-Apr-2023 09:40:53.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+04-Apr-2023 09:40:53.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17.0.2
+04-Apr-2023 09:40:53.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.2+8-LTS-86
+04-Apr-2023 09:40:53.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+04-Apr-2023 09:40:53.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+04-Apr-2023 09:40:53.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+04-Apr-2023 09:40:53.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Apr-2023 09:40:53.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+04-Apr-2023 09:40:53.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+04-Apr-2023 09:40:53.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Apr-2023 09:40:53.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Apr-2023 09:40:53.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\logging.properties
+04-Apr-2023 09:40:53.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2023 09:40:53.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-4M9M9EI
+04-Apr-2023 09:40:53.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2023 09:40:53.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2023 09:40:53.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+04-Apr-2023 09:40:53.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+04-Apr-2023 09:40:53.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+04-Apr-2023 09:40:53.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\temp
+04-Apr-2023 09:40:53.934 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.31] con la versión APR [1.7.0].
+04-Apr-2023 09:40:53.934 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+04-Apr-2023 09:40:53.934 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+04-Apr-2023 09:40:53.997 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1l  24 Aug 2021]
+04-Apr-2023 09:40:54.662 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+04-Apr-2023 09:40:54.719 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1415] milliseconds
+04-Apr-2023 09:40:54.833 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+04-Apr-2023 09:40:54.834 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.60]
+04-Apr-2023 09:40:54.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+04-Apr-2023 09:40:54.919 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+04-Apr-2023 09:40:56.402 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 09:40:56.569 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [1.683] ms
+04-Apr-2023 09:40:56.569 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml]
+04-Apr-2023 09:40:56.571 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoIntegrador] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has been ignored
+04-Apr-2023 09:40:57.386 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 09:40:57.386 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has finished in [817] ms
+04-Apr-2023 09:40:57.386 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+04-Apr-2023 09:40:57.386 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/proyectoPlataforma] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has been ignored
+04-Apr-2023 09:40:57.396 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+04-Apr-2023 09:40:57.400 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@11dee337]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\proyectoPlataforma-master\proyectoPlataforma-master\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+04-Apr-2023 09:40:57.432 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has finished in [45] ms
+04-Apr-2023 09:40:57.432 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml]
+04-Apr-2023 09:40:57.434 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoSigie] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has been ignored
+04-Apr-2023 09:40:57.531 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+04-Apr-2023 09:40:58.316 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 09:40:58.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has finished in [889] ms
+04-Apr-2023 09:40:58.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+04-Apr-2023 09:40:58.324 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Sigie2.0] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has been ignored
+04-Apr-2023 09:40:58.331 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3af37506]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\04-03-2016\Sigie_2.0\Sigie_2.0\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+04-Apr-2023 09:40:58.384 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has finished in [62] ms
+04-Apr-2023 09:40:58.384 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+04-Apr-2023 09:40:58.387 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+04-Apr-2023 09:40:58.400 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@e044b4a]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [J:\Universidad\Semestre 6\PROYECTO INTEGRADOR\ProyectoIntegrador\PI6\WebApplication1\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+04-Apr-2023 09:40:58.472 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has finished in [87] ms
+04-Apr-2023 09:40:58.474 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] de la aplicación web
+04-Apr-2023 09:40:58.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] has finished in [126] ms
+04-Apr-2023 09:40:58.600 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] de la aplicación web
+04-Apr-2023 09:41:00.240 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] has finished in [1.640] ms
+04-Apr-2023 09:41:00.241 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] de la aplicación web
+04-Apr-2023 09:41:00.303 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] has finished in [63] ms
+04-Apr-2023 09:41:00.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] de la aplicación web
+04-Apr-2023 09:41:00.402 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] has finished in [97] ms
+04-Apr-2023 09:41:00.402 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] de la aplicación web
+04-Apr-2023 09:41:00.437 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] has finished in [35] ms
+04-Apr-2023 09:41:00.443 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Apr-2023 09:41:00.549 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5829] milliseconds
+04-Apr-2023 09:41:02.664 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 09:41:02.988 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 09:41:02.994 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 10:13:53.927 WARNING [http-nio-8080-exec-20] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 10:13:53.927 WARNING [http-nio-8080-exec-20] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 10:13:54.433 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ASaber]
+04-Apr-2023 10:14:05.375 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+04-Apr-2023 10:14:05.376 WARNING [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+04-Apr-2023 10:14:05.551 INFO [http-nio-8080-exec-12] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 10:14:05.554 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [179] ms
+04-Apr-2023 10:14:05.558 INFO [http-nio-8080-exec-21] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ASaber]] after start() had already been called. The second call will be ignored.
+04-Apr-2023 10:20:56.126 WARNING [http-nio-8080-exec-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 10:20:56.126 WARNING [http-nio-8080-exec-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 10:20:56.648 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ASaber]
+04-Apr-2023 10:21:01.941 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+04-Apr-2023 10:21:01.942 WARNING [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+04-Apr-2023 10:21:02.147 INFO [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 10:21:02.149 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [208] ms
+04-Apr-2023 10:21:02.152 INFO [http-nio-8080-exec-29] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ASaber]] after start() had already been called. The second call will be ignored.
+04-Apr-2023 10:28:30.775 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 10:28:30.780 WARNING [http-nio-8080-exec-32] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 10:28:30.781 WARNING [http-nio-8080-exec-32] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 10:28:31.018 INFO [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 10:28:31.030 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 10:29:05.118 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 10:29:05.122 WARNING [http-nio-8080-exec-41] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 10:29:05.122 WARNING [http-nio-8080-exec-41] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 10:29:05.318 INFO [http-nio-8080-exec-41] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 10:29:05.328 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 10:34:31.226 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoMIPE.xml]
+04-Apr-2023 10:34:31.226 WARNING [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoMIPE] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoMIPE.xml] has been ignored
+04-Apr-2023 10:34:31.226 WARNING [http-nio-8080-exec-48] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+04-Apr-2023 10:34:31.341 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoMIPE.xml] has finished in [115] ms
+04-Apr-2023 10:34:31.344 INFO [http-nio-8080-exec-47] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProyectoMIPE]] after start() had already been called. The second call will be ignored.
+04-Apr-2023 10:45:07.050 WARNING [http-nio-8080-exec-51] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 10:45:07.050 WARNING [http-nio-8080-exec-51] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 10:45:07.557 INFO [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ASaber]
+04-Apr-2023 10:45:13.982 INFO [http-nio-8080-exec-55] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+04-Apr-2023 10:45:13.983 WARNING [http-nio-8080-exec-55] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+04-Apr-2023 10:45:14.083 INFO [http-nio-8080-exec-55] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 10:45:14.085 INFO [http-nio-8080-exec-55] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [102] ms
+04-Apr-2023 10:45:14.086 INFO [http-nio-8080-exec-50] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ASaber]] after start() had already been called. The second call will be ignored.
+04-Apr-2023 11:05:30.943 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:05:30.949 WARNING [http-nio-8080-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 11:05:30.950 WARNING [http-nio-8080-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 11:05:31.057 INFO [http-nio-8080-exec-65] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:05:31.069 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:11:03.914 INFO [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:11:03.918 WARNING [http-nio-8080-exec-67] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 11:11:03.918 WARNING [http-nio-8080-exec-67] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 11:11:04.018 INFO [http-nio-8080-exec-67] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:11:04.025 INFO [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:11:45.236 INFO [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:11:45.328 INFO [http-nio-8080-exec-71] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:11:45.330 INFO [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:12:53.739 INFO [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:12:53.741 WARNING [http-nio-8080-exec-83] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 11:12:53.743 WARNING [http-nio-8080-exec-83] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 11:12:53.834 INFO [http-nio-8080-exec-83] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:12:53.840 INFO [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:13:37.416 INFO [http-nio-8080-exec-88] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:13:37.419 WARNING [http-nio-8080-exec-88] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 11:13:37.420 WARNING [http-nio-8080-exec-88] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 11:13:37.518 INFO [http-nio-8080-exec-88] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:13:37.524 INFO [http-nio-8080-exec-88] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:13:59.782 INFO [http-nio-8080-exec-80] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:13:59.784 WARNING [http-nio-8080-exec-80] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 11:13:59.785 WARNING [http-nio-8080-exec-80] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 11:13:59.891 INFO [http-nio-8080-exec-80] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:13:59.900 INFO [http-nio-8080-exec-80] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:14:27.691 INFO [http-nio-8080-exec-95] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:14:27.693 WARNING [http-nio-8080-exec-95] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 11:14:27.693 WARNING [http-nio-8080-exec-95] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 11:14:27.801 INFO [http-nio-8080-exec-95] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:14:27.807 INFO [http-nio-8080-exec-95] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:14:43.486 INFO [http-nio-8080-exec-97] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:14:43.589 INFO [http-nio-8080-exec-97] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:14:43.591 INFO [http-nio-8080-exec-97] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:14:44.284 INFO [http-nio-8080-exec-95] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:14:44.399 INFO [http-nio-8080-exec-95] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:14:44.402 INFO [http-nio-8080-exec-95] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:16:45.019 INFO [http-nio-8080-exec-100] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:16:45.021 WARNING [http-nio-8080-exec-100] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 11:16:45.021 WARNING [http-nio-8080-exec-100] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 11:16:45.118 INFO [http-nio-8080-exec-100] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:16:45.124 INFO [http-nio-8080-exec-100] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:20:30.493 WARNING [http-nio-8080-exec-116] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 11:20:30.493 WARNING [http-nio-8080-exec-116] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 11:20:31.001 INFO [http-nio-8080-exec-116] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ASaber]
+04-Apr-2023 11:20:35.829 INFO [http-nio-8080-exec-115] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+04-Apr-2023 11:20:35.830 WARNING [http-nio-8080-exec-115] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+04-Apr-2023 11:20:35.928 INFO [http-nio-8080-exec-115] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:20:35.929 INFO [http-nio-8080-exec-115] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [100] ms
+04-Apr-2023 11:20:35.932 INFO [http-nio-8080-exec-109] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ASaber]] after start() had already been called. The second call will be ignored.
+04-Apr-2023 11:21:18.060 INFO [http-nio-8080-exec-119] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:21:18.064 WARNING [http-nio-8080-exec-119] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 11:21:18.064 WARNING [http-nio-8080-exec-119] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 11:21:18.162 INFO [http-nio-8080-exec-119] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:21:18.168 INFO [http-nio-8080-exec-119] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:21:34.980 INFO [http-nio-8080-exec-124] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:21:35.078 INFO [http-nio-8080-exec-124] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:21:35.083 INFO [http-nio-8080-exec-124] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:22:17.068 INFO [http-nio-8080-exec-126] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:22:17.070 WARNING [http-nio-8080-exec-126] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 11:22:17.070 WARNING [http-nio-8080-exec-126] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 11:22:17.166 INFO [http-nio-8080-exec-126] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:22:17.171 INFO [http-nio-8080-exec-126] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:23:04.545 INFO [http-nio-8080-exec-134] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:23:04.548 WARNING [http-nio-8080-exec-134] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 11:23:04.548 WARNING [http-nio-8080-exec-134] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 11:23:04.658 INFO [http-nio-8080-exec-134] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:23:04.663 INFO [http-nio-8080-exec-134] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:23:23.940 INFO [http-nio-8080-exec-131] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:23:24.036 INFO [http-nio-8080-exec-131] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:23:24.039 INFO [http-nio-8080-exec-131] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:24:10.882 INFO [http-nio-8080-exec-141] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:24:10.885 WARNING [http-nio-8080-exec-141] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 11:24:10.885 WARNING [http-nio-8080-exec-141] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 11:24:10.985 INFO [http-nio-8080-exec-141] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:24:10.990 INFO [http-nio-8080-exec-141] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:25:21.528 INFO [http-nio-8080-exec-148] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:25:21.530 WARNING [http-nio-8080-exec-148] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 11:25:21.531 WARNING [http-nio-8080-exec-148] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 11:25:21.620 INFO [http-nio-8080-exec-148] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:25:21.626 INFO [http-nio-8080-exec-148] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:29:47.698 INFO [http-nio-8080-exec-152] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:29:47.823 INFO [http-nio-8080-exec-152] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:29:47.828 INFO [http-nio-8080-exec-152] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:31:11.934 INFO [http-nio-8080-exec-162] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:31:12.038 INFO [http-nio-8080-exec-162] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:31:12.040 INFO [http-nio-8080-exec-162] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:31:25.944 INFO [http-nio-8080-exec-157] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:31:26.033 INFO [http-nio-8080-exec-157] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:31:26.036 INFO [http-nio-8080-exec-157] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:37:43.069 INFO [http-nio-8080-exec-167] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:37:43.163 INFO [http-nio-8080-exec-167] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:37:43.165 INFO [http-nio-8080-exec-167] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:37:54.465 INFO [http-nio-8080-exec-168] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:37:54.558 INFO [http-nio-8080-exec-168] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:37:54.560 INFO [http-nio-8080-exec-168] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:37:58.894 INFO [http-nio-8080-exec-170] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:37:58.990 INFO [http-nio-8080-exec-170] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:37:58.993 INFO [http-nio-8080-exec-170] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:45:02.119 INFO [http-nio-8080-exec-176] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:45:02.231 INFO [http-nio-8080-exec-176] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:45:02.236 INFO [http-nio-8080-exec-176] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:48:09.633 INFO [http-nio-8080-exec-184] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:48:09.726 INFO [http-nio-8080-exec-184] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:48:09.729 INFO [http-nio-8080-exec-184] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:50:49.875 INFO [http-nio-8080-exec-187] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:50:49.965 INFO [http-nio-8080-exec-187] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:50:49.967 INFO [http-nio-8080-exec-187] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:52:11.560 INFO [http-nio-8080-exec-186] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:52:11.662 INFO [http-nio-8080-exec-186] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:52:11.664 INFO [http-nio-8080-exec-186] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:53:02.613 INFO [http-nio-8080-exec-165] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:53:02.709 INFO [http-nio-8080-exec-165] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:53:02.712 INFO [http-nio-8080-exec-165] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:53:14.274 INFO [http-nio-8080-exec-185] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:53:14.367 INFO [http-nio-8080-exec-185] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:53:14.369 INFO [http-nio-8080-exec-185] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:54:22.309 INFO [http-nio-8080-exec-190] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:54:22.414 INFO [http-nio-8080-exec-190] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:54:22.418 INFO [http-nio-8080-exec-190] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:54:22.815 INFO [http-nio-8080-exec-193] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:54:22.931 INFO [http-nio-8080-exec-193] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:54:22.933 INFO [http-nio-8080-exec-193] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:56:27.537 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:56:27.636 INFO [http-nio-8080-exec-196] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:56:27.638 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:56:30.110 INFO [http-nio-8080-exec-186] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:56:30.207 INFO [http-nio-8080-exec-186] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:56:30.209 INFO [http-nio-8080-exec-186] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:57:01.811 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:57:01.904 INFO [http-nio-8080-exec-196] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:57:01.905 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 11:58:52.442 INFO [http-nio-8080-exec-197] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 11:58:52.544 INFO [http-nio-8080-exec-197] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 11:58:52.545 INFO [http-nio-8080-exec-197] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 12:19:28.814 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+04-Apr-2023 12:19:28.814 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Apr-2023 12:19:28.814 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+04-Apr-2023 12:19:28.830 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 12:19:28.830 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 12:19:28.846 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Apr-2023 12:19:28.862 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Apr-2023 14:51:41.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.60
+04-Apr-2023 14:51:41.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 9 2022 14:52:25 UTC
+04-Apr-2023 14:51:41.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.60.0
+04-Apr-2023 14:51:41.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+04-Apr-2023 14:51:41.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+04-Apr-2023 14:51:41.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+04-Apr-2023 14:51:41.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17.0.2
+04-Apr-2023 14:51:41.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.2+8-LTS-86
+04-Apr-2023 14:51:41.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+04-Apr-2023 14:51:41.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+04-Apr-2023 14:51:41.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+04-Apr-2023 14:51:41.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Apr-2023 14:51:41.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+04-Apr-2023 14:51:41.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+04-Apr-2023 14:51:41.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Apr-2023 14:51:41.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Apr-2023 14:51:41.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\logging.properties
+04-Apr-2023 14:51:41.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2023 14:51:41.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-4M9M9EI
+04-Apr-2023 14:51:41.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2023 14:51:41.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2023 14:51:41.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+04-Apr-2023 14:51:41.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+04-Apr-2023 14:51:41.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+04-Apr-2023 14:51:41.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\temp
+04-Apr-2023 14:51:41.187 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.31] con la versión APR [1.7.0].
+04-Apr-2023 14:51:41.187 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+04-Apr-2023 14:51:41.187 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+04-Apr-2023 14:51:41.210 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1l  24 Aug 2021]
+04-Apr-2023 14:51:41.507 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+04-Apr-2023 14:51:41.527 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [896] milliseconds
+04-Apr-2023 14:51:41.604 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+04-Apr-2023 14:51:41.604 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.60]
+04-Apr-2023 14:51:41.696 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+04-Apr-2023 14:51:41.718 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+04-Apr-2023 14:51:43.515 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 14:51:43.631 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [1.933] ms
+04-Apr-2023 14:51:43.631 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml]
+04-Apr-2023 14:51:43.632 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoIntegrador] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has been ignored
+04-Apr-2023 14:51:44.849 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 14:51:44.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has finished in [1.221] ms
+04-Apr-2023 14:51:44.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoMIPE.xml]
+04-Apr-2023 14:51:44.853 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoMIPE] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoMIPE.xml] has been ignored
+04-Apr-2023 14:51:44.856 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+04-Apr-2023 14:51:45.093 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoMIPE.xml] has finished in [240] ms
+04-Apr-2023 14:51:45.093 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+04-Apr-2023 14:51:45.094 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/proyectoPlataforma] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has been ignored
+04-Apr-2023 14:51:45.095 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+04-Apr-2023 14:51:45.097 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@61d9efe0]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\proyectoPlataforma-master\proyectoPlataforma-master\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+04-Apr-2023 14:51:45.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has finished in [52] ms
+04-Apr-2023 14:51:45.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml]
+04-Apr-2023 14:51:45.147 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoSigie] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has been ignored
+04-Apr-2023 14:51:45.231 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+04-Apr-2023 14:51:45.827 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 14:51:45.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has finished in [683] ms
+04-Apr-2023 14:51:45.830 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+04-Apr-2023 14:51:45.830 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Sigie2.0] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has been ignored
+04-Apr-2023 14:51:45.835 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@111610e6]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\04-03-2016\Sigie_2.0\Sigie_2.0\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+04-Apr-2023 14:51:45.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has finished in [19] ms
+04-Apr-2023 14:51:45.849 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+04-Apr-2023 14:51:45.849 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+04-Apr-2023 14:51:45.856 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@25cc7470]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [J:\Universidad\Semestre 6\PROYECTO INTEGRADOR\ProyectoIntegrador\PI6\WebApplication1\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+04-Apr-2023 14:51:45.927 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has finished in [77] ms
+04-Apr-2023 14:51:45.927 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] de la aplicación web
+04-Apr-2023 14:51:45.968 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] has finished in [41] ms
+04-Apr-2023 14:51:45.968 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] de la aplicación web
+04-Apr-2023 14:51:46.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] has finished in [945] ms
+04-Apr-2023 14:51:46.914 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] de la aplicación web
+04-Apr-2023 14:51:46.977 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] has finished in [62] ms
+04-Apr-2023 14:51:46.978 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] de la aplicación web
+04-Apr-2023 14:51:47.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] has finished in [80] ms
+04-Apr-2023 14:51:47.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] de la aplicación web
+04-Apr-2023 14:51:47.080 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] has finished in [21] ms
+04-Apr-2023 14:51:47.084 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Apr-2023 14:51:47.145 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5618] milliseconds
+04-Apr-2023 14:51:50.680 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 14:51:50.852 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 14:51:50.859 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 15:03:43.761 INFO [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 15:03:43.765 WARNING [http-nio-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 15:03:43.765 WARNING [http-nio-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 15:03:43.867 INFO [http-nio-8080-exec-15] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 15:03:43.873 INFO [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 15:04:17.395 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 15:04:17.399 WARNING [http-nio-8080-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 15:04:17.400 WARNING [http-nio-8080-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 15:04:17.507 INFO [http-nio-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 15:04:17.513 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 15:05:43.922 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 15:05:43.925 WARNING [http-nio-8080-exec-32] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 15:05:43.925 WARNING [http-nio-8080-exec-32] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 15:05:44.021 INFO [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 15:05:44.028 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 15:06:24.628 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 15:06:24.631 WARNING [http-nio-8080-exec-32] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 15:06:24.631 WARNING [http-nio-8080-exec-32] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 15:06:24.748 INFO [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 15:06:24.754 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 15:08:52.181 INFO [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 15:08:52.193 WARNING [http-nio-8080-exec-44] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 15:08:52.193 WARNING [http-nio-8080-exec-44] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 15:08:52.299 INFO [http-nio-8080-exec-44] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 15:08:52.305 INFO [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 15:13:33.651 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 15:13:33.672 WARNING [http-nio-8080-exec-55] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 15:13:33.673 WARNING [http-nio-8080-exec-55] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 15:13:33.926 INFO [http-nio-8080-exec-55] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 15:13:33.941 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 15:13:35.591 INFO [http-nio-8080-exec-59] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 15:13:35.776 INFO [http-nio-8080-exec-59] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 15:13:35.789 INFO [http-nio-8080-exec-59] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 15:13:59.364 INFO [http-nio-8080-exec-56] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 15:13:59.510 INFO [http-nio-8080-exec-56] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 15:13:59.514 INFO [http-nio-8080-exec-56] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 15:15:56.765 INFO [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 15:15:56.771 WARNING [http-nio-8080-exec-69] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 15:15:56.772 WARNING [http-nio-8080-exec-69] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 15:15:56.935 INFO [http-nio-8080-exec-69] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 15:15:56.948 INFO [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 15:17:52.478 INFO [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 15:17:52.493 WARNING [http-nio-8080-exec-85] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 15:17:52.493 WARNING [http-nio-8080-exec-85] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 15:17:52.664 INFO [http-nio-8080-exec-85] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 15:17:52.681 INFO [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 15:21:10.533 WARNING [http-nio-8080-exec-95] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 15:21:10.534 WARNING [http-nio-8080-exec-95] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 15:21:11.037 INFO [http-nio-8080-exec-95] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ASaber]
+04-Apr-2023 15:22:00.138 INFO [http-nio-8080-exec-96] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+04-Apr-2023 15:22:00.141 WARNING [http-nio-8080-exec-96] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+04-Apr-2023 15:22:00.322 INFO [http-nio-8080-exec-96] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 15:22:00.325 INFO [http-nio-8080-exec-96] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [187] ms
+04-Apr-2023 15:22:00.328 INFO [http-nio-8080-exec-97] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ASaber]] after start() had already been called. The second call will be ignored.
+04-Apr-2023 15:23:25.891 INFO [http-nio-8080-exec-101] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 15:23:25.895 WARNING [http-nio-8080-exec-101] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 15:23:25.895 WARNING [http-nio-8080-exec-101] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 15:23:26.051 INFO [http-nio-8080-exec-101] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 15:23:26.062 INFO [http-nio-8080-exec-101] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 15:29:54.172 SEVERE [http-nio-8080-exec-115] Controller.ModulosController.verificarRealizacionPruebaModulo null
+	com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 1 ms ago.
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+		at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+		at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+		at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2873)
+		at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2763)
+		at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3299)
+		at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+		at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+		at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+		at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+		at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1888)
+		at DAO.PruebaIntentoDAO.verificarRealizacionPrueba(PruebaIntentoDAO.java:161)
+		at Controller.ModulosController.verificarRealizacionPruebaModulo(ModulosController.java:308)
+		at Controller.ModulosController.doPost(ModulosController.java:130)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.net.SocketException: Socket closed
+		at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+		at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+		at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+		at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+		at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+		at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:113)
+		at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:160)
+		at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:188)
+		at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2329)
+		at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2774)
+		... 34 more
+04-Apr-2023 15:30:29.734 INFO [http-nio-8080-exec-115] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+04-Apr-2023 15:30:29.738 WARNING [http-nio-8080-exec-115] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Apr-2023 15:30:29.740 WARNING [http-nio-8080-exec-115] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+04-Apr-2023 15:30:29.910 INFO [http-nio-8080-exec-115] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Apr-2023 15:30:29.923 INFO [http-nio-8080-exec-115] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Apr-2023 15:30:47.746 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+04-Apr-2023 15:30:47.746 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Apr-2023 15:30:47.752 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+04-Apr-2023 15:30:47.768 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Apr-2023 15:30:47.784 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

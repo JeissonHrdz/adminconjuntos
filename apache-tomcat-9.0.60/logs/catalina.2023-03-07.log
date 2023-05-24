@@ -1,0 +1,1475 @@
+07-Mar-2023 11:23:59.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.60
+07-Mar-2023 11:23:59.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 9 2022 14:52:25 UTC
+07-Mar-2023 11:23:59.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.60.0
+07-Mar-2023 11:23:59.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+07-Mar-2023 11:23:59.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+07-Mar-2023 11:23:59.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+07-Mar-2023 11:23:59.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17.0.2
+07-Mar-2023 11:23:59.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.2+8-LTS-86
+07-Mar-2023 11:23:59.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+07-Mar-2023 11:23:59.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 11:23:59.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 11:23:59.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2023 11:23:59.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2023 11:23:59.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2023 11:23:59.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2023 11:23:59.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2023 11:23:59.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\logging.properties
+07-Mar-2023 11:23:59.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2023 11:23:59.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-4M9M9EI
+07-Mar-2023 11:23:59.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2023 11:23:59.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2023 11:23:59.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+07-Mar-2023 11:23:59.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 11:23:59.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 11:23:59.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\temp
+07-Mar-2023 11:23:59.799 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.31] con la versión APR [1.7.0].
+07-Mar-2023 11:23:59.800 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+07-Mar-2023 11:23:59.800 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2023 11:23:59.888 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1l  24 Aug 2021]
+07-Mar-2023 11:24:00.465 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+07-Mar-2023 11:24:00.507 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1367] milliseconds
+07-Mar-2023 11:24:00.616 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+07-Mar-2023 11:24:00.616 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.60]
+07-Mar-2023 11:24:00.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+07-Mar-2023 11:24:00.664 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+07-Mar-2023 11:24:02.257 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 11:24:02.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [1.733] ms
+07-Mar-2023 11:24:02.372 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml]
+07-Mar-2023 11:24:02.373 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoIntegrador] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has been ignored
+07-Mar-2023 11:24:03.771 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 11:24:03.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has finished in [1.403] ms
+07-Mar-2023 11:24:03.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+07-Mar-2023 11:24:03.777 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/proyectoPlataforma] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has been ignored
+07-Mar-2023 11:24:03.782 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+07-Mar-2023 11:24:03.785 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@11dee337]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\proyectoPlataforma-master\proyectoPlataforma-master\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 11:24:03.915 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has finished in [138] ms
+07-Mar-2023 11:24:03.915 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml]
+07-Mar-2023 11:24:03.918 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoSigie] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has been ignored
+07-Mar-2023 11:24:04.149 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+07-Mar-2023 11:24:05.111 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 11:24:05.129 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has finished in [1.214] ms
+07-Mar-2023 11:24:05.131 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+07-Mar-2023 11:24:05.132 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Sigie2.0] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has been ignored
+07-Mar-2023 11:24:05.140 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3af37506]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\04-03-2016\Sigie_2.0\Sigie_2.0\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 11:24:05.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has finished in [62] ms
+07-Mar-2023 11:24:05.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+07-Mar-2023 11:24:05.195 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+07-Mar-2023 11:24:05.204 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@e044b4a]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [J:\Universidad\Semestre 6\PROYECTO INTEGRADOR\ProyectoIntegrador\PI6\WebApplication1\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 11:24:05.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has finished in [74] ms
+07-Mar-2023 11:24:05.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] de la aplicación web
+07-Mar-2023 11:24:05.383 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] has finished in [115] ms
+07-Mar-2023 11:24:05.383 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] de la aplicación web
+07-Mar-2023 11:24:07.358 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] has finished in [1.974] ms
+07-Mar-2023 11:24:07.358 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] de la aplicación web
+07-Mar-2023 11:24:07.444 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] has finished in [86] ms
+07-Mar-2023 11:24:07.444 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] de la aplicación web
+07-Mar-2023 11:24:07.535 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] has finished in [91] ms
+07-Mar-2023 11:24:07.536 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] de la aplicación web
+07-Mar-2023 11:24:07.575 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] has finished in [38] ms
+07-Mar-2023 11:24:07.580 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 11:24:07.653 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7145] milliseconds
+07-Mar-2023 11:24:09.259 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ASaber]
+07-Mar-2023 11:24:09.505 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 11:24:09.510 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Mar-2023 11:33:19.789 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+07-Mar-2023 11:33:19.790 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 11:33:19.802 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+07-Mar-2023 11:33:19.817 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+07-Mar-2023 11:33:19.818 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+07-Mar-2023 11:33:19.842 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 11:33:19.850 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 13:45:26.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.60
+07-Mar-2023 13:45:26.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 9 2022 14:52:25 UTC
+07-Mar-2023 13:45:26.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.60.0
+07-Mar-2023 13:45:26.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+07-Mar-2023 13:45:26.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+07-Mar-2023 13:45:26.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+07-Mar-2023 13:45:26.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17.0.2
+07-Mar-2023 13:45:26.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.2+8-LTS-86
+07-Mar-2023 13:45:26.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+07-Mar-2023 13:45:26.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 13:45:26.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 13:45:26.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2023 13:45:26.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2023 13:45:26.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2023 13:45:26.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2023 13:45:26.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2023 13:45:26.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\logging.properties
+07-Mar-2023 13:45:26.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2023 13:45:26.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-4M9M9EI
+07-Mar-2023 13:45:26.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2023 13:45:26.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2023 13:45:26.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+07-Mar-2023 13:45:26.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 13:45:26.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 13:45:26.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\temp
+07-Mar-2023 13:45:26.532 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.31] con la versión APR [1.7.0].
+07-Mar-2023 13:45:26.533 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+07-Mar-2023 13:45:26.534 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2023 13:45:26.545 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1l  24 Aug 2021]
+07-Mar-2023 13:45:26.875 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+07-Mar-2023 13:45:26.915 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [682] milliseconds
+07-Mar-2023 13:45:27.052 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+07-Mar-2023 13:45:27.052 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.60]
+07-Mar-2023 13:45:27.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+07-Mar-2023 13:45:27.113 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+07-Mar-2023 13:45:27.626 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 13:45:27.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [647] ms
+07-Mar-2023 13:45:27.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml]
+07-Mar-2023 13:45:27.735 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoIntegrador] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has been ignored
+07-Mar-2023 13:45:28.411 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 13:45:28.413 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has finished in [680] ms
+07-Mar-2023 13:45:28.413 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+07-Mar-2023 13:45:28.414 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/proyectoPlataforma] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has been ignored
+07-Mar-2023 13:45:28.417 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+07-Mar-2023 13:45:28.418 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@72b16078]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\proyectoPlataforma-master\proyectoPlataforma-master\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 13:45:28.474 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has finished in [61] ms
+07-Mar-2023 13:45:28.475 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml]
+07-Mar-2023 13:45:28.476 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoSigie] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has been ignored
+07-Mar-2023 13:45:28.568 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+07-Mar-2023 13:45:28.999 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 13:45:29.002 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has finished in [526] ms
+07-Mar-2023 13:45:29.002 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+07-Mar-2023 13:45:29.003 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Sigie2.0] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has been ignored
+07-Mar-2023 13:45:29.007 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@7daa61f3]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\04-03-2016\Sigie_2.0\Sigie_2.0\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 13:45:29.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has finished in [48] ms
+07-Mar-2023 13:45:29.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+07-Mar-2023 13:45:29.052 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+07-Mar-2023 13:45:29.054 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@24e8de5c]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [J:\Universidad\Semestre 6\PROYECTO INTEGRADOR\ProyectoIntegrador\PI6\WebApplication1\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 13:45:29.114 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has finished in [62] ms
+07-Mar-2023 13:45:29.115 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] de la aplicación web
+07-Mar-2023 13:45:29.130 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] has finished in [15] ms
+07-Mar-2023 13:45:29.130 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] de la aplicación web
+07-Mar-2023 13:45:29.494 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] has finished in [364] ms
+07-Mar-2023 13:45:29.494 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] de la aplicación web
+07-Mar-2023 13:45:29.536 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] has finished in [42] ms
+07-Mar-2023 13:45:29.536 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] de la aplicación web
+07-Mar-2023 13:45:29.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] has finished in [30] ms
+07-Mar-2023 13:45:29.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] de la aplicación web
+07-Mar-2023 13:45:29.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] has finished in [17] ms
+07-Mar-2023 13:45:29.586 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 13:45:29.617 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2715] milliseconds
+07-Mar-2023 14:09:46.115 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+07-Mar-2023 14:09:46.115 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 14:09:46.123 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+07-Mar-2023 14:09:46.129 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+07-Mar-2023 14:09:46.129 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+07-Mar-2023 14:09:46.146 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 14:09:46.156 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 14:10:01.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.60
+07-Mar-2023 14:10:01.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 9 2022 14:52:25 UTC
+07-Mar-2023 14:10:01.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.60.0
+07-Mar-2023 14:10:01.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+07-Mar-2023 14:10:01.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+07-Mar-2023 14:10:01.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+07-Mar-2023 14:10:01.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17.0.2
+07-Mar-2023 14:10:01.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.2+8-LTS-86
+07-Mar-2023 14:10:01.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+07-Mar-2023 14:10:01.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 14:10:01.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 14:10:01.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2023 14:10:01.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2023 14:10:01.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2023 14:10:01.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2023 14:10:01.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2023 14:10:01.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\logging.properties
+07-Mar-2023 14:10:01.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2023 14:10:01.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-4M9M9EI
+07-Mar-2023 14:10:01.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2023 14:10:01.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2023 14:10:01.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+07-Mar-2023 14:10:01.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 14:10:01.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 14:10:01.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\temp
+07-Mar-2023 14:10:01.937 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.31] con la versión APR [1.7.0].
+07-Mar-2023 14:10:01.937 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+07-Mar-2023 14:10:01.937 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2023 14:10:01.948 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1l  24 Aug 2021]
+07-Mar-2023 14:10:02.214 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+07-Mar-2023 14:10:02.237 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [536] milliseconds
+07-Mar-2023 14:10:02.294 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+07-Mar-2023 14:10:02.295 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.60]
+07-Mar-2023 14:10:02.303 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+07-Mar-2023 14:10:02.331 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+07-Mar-2023 14:10:02.743 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 14:10:02.827 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [522] ms
+07-Mar-2023 14:10:02.827 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml]
+07-Mar-2023 14:10:02.828 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoIntegrador] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has been ignored
+07-Mar-2023 14:10:02.977 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 14:10:02.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has finished in [154] ms
+07-Mar-2023 14:10:02.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+07-Mar-2023 14:10:02.982 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/proyectoPlataforma] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has been ignored
+07-Mar-2023 14:10:02.984 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+07-Mar-2023 14:10:02.986 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@4a9cc6cb]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\proyectoPlataforma-master\proyectoPlataforma-master\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 14:10:02.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has finished in [10] ms
+07-Mar-2023 14:10:02.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml]
+07-Mar-2023 14:10:02.993 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoSigie] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has been ignored
+07-Mar-2023 14:10:02.997 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+07-Mar-2023 14:10:03.219 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 14:10:03.221 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has finished in [230] ms
+07-Mar-2023 14:10:03.221 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+07-Mar-2023 14:10:03.222 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Sigie2.0] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has been ignored
+07-Mar-2023 14:10:03.227 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2bfeb1ef]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\04-03-2016\Sigie_2.0\Sigie_2.0\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 14:10:03.257 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has finished in [35] ms
+07-Mar-2023 14:10:03.257 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+07-Mar-2023 14:10:03.258 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+07-Mar-2023 14:10:03.264 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@907f2b7]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [J:\Universidad\Semestre 6\PROYECTO INTEGRADOR\ProyectoIntegrador\PI6\WebApplication1\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 14:10:03.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has finished in [78] ms
+07-Mar-2023 14:10:03.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] de la aplicación web
+07-Mar-2023 14:10:03.362 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] has finished in [26] ms
+07-Mar-2023 14:10:03.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] de la aplicación web
+07-Mar-2023 14:10:03.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] has finished in [301] ms
+07-Mar-2023 14:10:03.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] de la aplicación web
+07-Mar-2023 14:10:03.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] has finished in [35] ms
+07-Mar-2023 14:10:03.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] de la aplicación web
+07-Mar-2023 14:10:03.734 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] has finished in [35] ms
+07-Mar-2023 14:10:03.735 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] de la aplicación web
+07-Mar-2023 14:10:03.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] has finished in [28] ms
+07-Mar-2023 14:10:03.769 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 14:10:03.821 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1583] milliseconds
+07-Mar-2023 14:34:12.081 WARNING [http-nio-8080-exec-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+07-Mar-2023 14:34:12.082 WARNING [http-nio-8080-exec-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+07-Mar-2023 14:34:12.590 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ASaber]
+07-Mar-2023 14:34:51.310 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+07-Mar-2023 14:34:51.310 WARNING [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+07-Mar-2023 14:34:51.407 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 14:34:51.408 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [98] ms
+07-Mar-2023 14:34:51.411 INFO [http-nio-8080-exec-12] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ASaber]] after start() had already been called. The second call will be ignored.
+07-Mar-2023 14:40:12.691 WARNING [http-nio-8080-exec-17] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+07-Mar-2023 14:40:12.691 WARNING [http-nio-8080-exec-17] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+07-Mar-2023 14:40:13.208 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ASaber]
+07-Mar-2023 14:40:34.819 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+07-Mar-2023 14:40:34.819 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 14:40:34.829 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+07-Mar-2023 14:40:34.844 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 14:40:34.859 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 14:40:58.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.60
+07-Mar-2023 14:40:58.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 9 2022 14:52:25 UTC
+07-Mar-2023 14:40:58.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.60.0
+07-Mar-2023 14:40:58.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+07-Mar-2023 14:40:58.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+07-Mar-2023 14:40:58.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+07-Mar-2023 14:40:58.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17.0.2
+07-Mar-2023 14:40:58.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.2+8-LTS-86
+07-Mar-2023 14:40:58.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+07-Mar-2023 14:40:58.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 14:40:58.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 14:40:58.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2023 14:40:58.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2023 14:40:58.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2023 14:40:58.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2023 14:40:58.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2023 14:40:58.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\logging.properties
+07-Mar-2023 14:40:58.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2023 14:40:58.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-4M9M9EI
+07-Mar-2023 14:40:58.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2023 14:40:58.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2023 14:40:58.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+07-Mar-2023 14:40:58.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 14:40:58.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 14:40:58.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\temp
+07-Mar-2023 14:40:58.716 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.31] con la versión APR [1.7.0].
+07-Mar-2023 14:40:58.718 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+07-Mar-2023 14:40:58.718 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2023 14:40:58.739 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1l  24 Aug 2021]
+07-Mar-2023 14:40:59.072 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+07-Mar-2023 14:40:59.106 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [650] milliseconds
+07-Mar-2023 14:40:59.204 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+07-Mar-2023 14:40:59.205 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.60]
+07-Mar-2023 14:40:59.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml]
+07-Mar-2023 14:40:59.241 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoIntegrador] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has been ignored
+07-Mar-2023 14:40:59.693 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 14:40:59.772 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has finished in [555] ms
+07-Mar-2023 14:40:59.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+07-Mar-2023 14:40:59.774 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/proyectoPlataforma] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has been ignored
+07-Mar-2023 14:40:59.776 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+07-Mar-2023 14:40:59.778 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3b220bcb]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\proyectoPlataforma-master\proyectoPlataforma-master\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 14:40:59.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has finished in [38] ms
+07-Mar-2023 14:40:59.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml]
+07-Mar-2023 14:40:59.815 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoSigie] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has been ignored
+07-Mar-2023 14:40:59.823 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+07-Mar-2023 14:41:00.128 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 14:41:00.133 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has finished in [321] ms
+07-Mar-2023 14:41:00.133 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+07-Mar-2023 14:41:00.134 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Sigie2.0] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has been ignored
+07-Mar-2023 14:41:00.139 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@22680f52]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\04-03-2016\Sigie_2.0\Sigie_2.0\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 14:41:00.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has finished in [53] ms
+07-Mar-2023 14:41:00.188 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+07-Mar-2023 14:41:00.188 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+07-Mar-2023 14:41:00.198 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@72bca894]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [J:\Universidad\Semestre 6\PROYECTO INTEGRADOR\ProyectoIntegrador\PI6\WebApplication1\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 14:41:00.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has finished in [74] ms
+07-Mar-2023 14:41:00.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] de la aplicación web
+07-Mar-2023 14:41:00.312 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] has finished in [48] ms
+07-Mar-2023 14:41:00.312 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] de la aplicación web
+07-Mar-2023 14:41:00.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] has finished in [392] ms
+07-Mar-2023 14:41:00.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] de la aplicación web
+07-Mar-2023 14:41:00.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] has finished in [54] ms
+07-Mar-2023 14:41:00.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] de la aplicación web
+07-Mar-2023 14:41:00.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] has finished in [75] ms
+07-Mar-2023 14:41:00.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] de la aplicación web
+07-Mar-2023 14:41:00.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] has finished in [43] ms
+07-Mar-2023 14:41:00.886 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 14:41:00.970 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1864] milliseconds
+07-Mar-2023 14:41:02.137 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+07-Mar-2023 14:41:02.139 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+07-Mar-2023 14:41:02.351 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 14:41:02.356 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [219] ms
+07-Mar-2023 14:41:02.361 INFO [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ASaber]] after start() had already been called. The second call will be ignored.
+07-Mar-2023 15:04:42.601 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+07-Mar-2023 15:04:42.601 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 15:04:42.609 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+07-Mar-2023 15:04:42.629 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+07-Mar-2023 15:04:42.630 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+07-Mar-2023 15:04:42.639 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 15:04:42.643 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 15:04:54.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.60
+07-Mar-2023 15:04:54.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 9 2022 14:52:25 UTC
+07-Mar-2023 15:04:54.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.60.0
+07-Mar-2023 15:04:54.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+07-Mar-2023 15:04:54.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+07-Mar-2023 15:04:54.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+07-Mar-2023 15:04:54.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17.0.2
+07-Mar-2023 15:04:54.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.2+8-LTS-86
+07-Mar-2023 15:04:54.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+07-Mar-2023 15:04:54.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 15:04:54.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 15:04:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2023 15:04:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2023 15:04:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2023 15:04:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2023 15:04:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2023 15:04:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\logging.properties
+07-Mar-2023 15:04:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2023 15:04:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-4M9M9EI
+07-Mar-2023 15:04:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2023 15:04:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2023 15:04:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+07-Mar-2023 15:04:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 15:04:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 15:04:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\temp
+07-Mar-2023 15:04:55.034 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.31] con la versión APR [1.7.0].
+07-Mar-2023 15:04:55.035 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+07-Mar-2023 15:04:55.035 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2023 15:04:55.056 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1l  24 Aug 2021]
+07-Mar-2023 15:04:55.319 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+07-Mar-2023 15:04:55.343 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [543] milliseconds
+07-Mar-2023 15:04:55.386 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+07-Mar-2023 15:04:55.387 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.60]
+07-Mar-2023 15:04:55.395 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+07-Mar-2023 15:04:55.408 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+07-Mar-2023 15:04:55.766 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 15:04:55.850 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [453] ms
+07-Mar-2023 15:04:55.850 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml]
+07-Mar-2023 15:04:55.850 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoIntegrador] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has been ignored
+07-Mar-2023 15:04:55.979 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 15:04:55.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has finished in [131] ms
+07-Mar-2023 15:04:55.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+07-Mar-2023 15:04:55.982 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/proyectoPlataforma] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has been ignored
+07-Mar-2023 15:04:55.984 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+07-Mar-2023 15:04:55.986 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@4089713]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\proyectoPlataforma-master\proyectoPlataforma-master\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 15:04:56.026 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has finished in [45] ms
+07-Mar-2023 15:04:56.027 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml]
+07-Mar-2023 15:04:56.032 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoSigie] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has been ignored
+07-Mar-2023 15:04:56.045 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+07-Mar-2023 15:04:56.248 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 15:04:56.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has finished in [222] ms
+07-Mar-2023 15:04:56.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+07-Mar-2023 15:04:56.249 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Sigie2.0] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has been ignored
+07-Mar-2023 15:04:56.253 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3961a41a]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\04-03-2016\Sigie_2.0\Sigie_2.0\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 15:04:56.287 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has finished in [38] ms
+07-Mar-2023 15:04:56.287 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+07-Mar-2023 15:04:56.288 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+07-Mar-2023 15:04:56.291 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@edf4f36]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [J:\Universidad\Semestre 6\PROYECTO INTEGRADOR\ProyectoIntegrador\PI6\WebApplication1\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 15:04:56.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has finished in [57] ms
+07-Mar-2023 15:04:56.345 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] de la aplicación web
+07-Mar-2023 15:04:56.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] has finished in [32] ms
+07-Mar-2023 15:04:56.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] de la aplicación web
+07-Mar-2023 15:04:56.649 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] has finished in [272] ms
+07-Mar-2023 15:04:56.649 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] de la aplicación web
+07-Mar-2023 15:04:56.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] has finished in [48] ms
+07-Mar-2023 15:04:56.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] de la aplicación web
+07-Mar-2023 15:04:56.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] has finished in [45] ms
+07-Mar-2023 15:04:56.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] de la aplicación web
+07-Mar-2023 15:04:56.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] has finished in [21] ms
+07-Mar-2023 15:04:56.769 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 15:04:56.819 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1475] milliseconds
+07-Mar-2023 15:05:02.139 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+07-Mar-2023 15:05:02.139 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 15:05:02.146 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+07-Mar-2023 15:05:02.153 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+07-Mar-2023 15:05:02.154 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+07-Mar-2023 15:05:02.168 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 15:05:02.185 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 15:06:02.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.60
+07-Mar-2023 15:06:02.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 9 2022 14:52:25 UTC
+07-Mar-2023 15:06:02.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.60.0
+07-Mar-2023 15:06:02.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+07-Mar-2023 15:06:02.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+07-Mar-2023 15:06:02.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+07-Mar-2023 15:06:02.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17.0.2
+07-Mar-2023 15:06:02.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.2+8-LTS-86
+07-Mar-2023 15:06:02.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+07-Mar-2023 15:06:02.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 15:06:02.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 15:06:02.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2023 15:06:02.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2023 15:06:02.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2023 15:06:02.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2023 15:06:02.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2023 15:06:02.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\logging.properties
+07-Mar-2023 15:06:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2023 15:06:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-4M9M9EI
+07-Mar-2023 15:06:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2023 15:06:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2023 15:06:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+07-Mar-2023 15:06:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 15:06:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60
+07-Mar-2023 15:06:02.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\temp
+07-Mar-2023 15:06:02.947 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.31] con la versión APR [1.7.0].
+07-Mar-2023 15:06:02.948 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+07-Mar-2023 15:06:02.948 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2023 15:06:02.954 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1l  24 Aug 2021]
+07-Mar-2023 15:06:03.406 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+07-Mar-2023 15:06:03.435 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1053] milliseconds
+07-Mar-2023 15:06:03.513 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+07-Mar-2023 15:06:03.514 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.60]
+07-Mar-2023 15:06:03.536 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+07-Mar-2023 15:06:03.555 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+07-Mar-2023 15:06:04.276 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 15:06:04.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [825] ms
+07-Mar-2023 15:06:04.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml]
+07-Mar-2023 15:06:04.364 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoIntegrador] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has been ignored
+07-Mar-2023 15:06:04.615 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 15:06:04.617 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoIntegrador.xml] has finished in [254] ms
+07-Mar-2023 15:06:04.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+07-Mar-2023 15:06:04.618 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/proyectoPlataforma] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has been ignored
+07-Mar-2023 15:06:04.623 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+07-Mar-2023 15:06:04.625 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@770d4269]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\proyectoPlataforma-master\proyectoPlataforma-master\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 15:06:04.671 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\proyectoPlataforma.xml] has finished in [52] ms
+07-Mar-2023 15:06:04.671 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml]
+07-Mar-2023 15:06:04.671 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoSigie] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has been ignored
+07-Mar-2023 15:06:04.675 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+07-Mar-2023 15:06:04.836 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 15:06:04.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ProyectoSigie.xml] has finished in [169] ms
+07-Mar-2023 15:06:04.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+07-Mar-2023 15:06:04.840 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Sigie2.0] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has been ignored
+07-Mar-2023 15:06:04.846 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@73d6d0c]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NITRO\Downloads\04-03-2016\Sigie_2.0\Sigie_2.0\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 15:06:04.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\Sigie2.0.xml] has finished in [51] ms
+07-Mar-2023 15:06:04.892 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+07-Mar-2023 15:06:04.893 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+07-Mar-2023 15:06:04.898 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@edf4f36]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [J:\Universidad\Semestre 6\PROYECTO INTEGRADOR\ProyectoIntegrador\PI6\WebApplication1\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+07-Mar-2023 15:06:04.958 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\WebApplication1.xml] has finished in [66] ms
+07-Mar-2023 15:06:04.959 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] de la aplicación web
+07-Mar-2023 15:06:05.018 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\docs] has finished in [59] ms
+07-Mar-2023 15:06:05.018 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] de la aplicación web
+07-Mar-2023 15:06:05.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\examples] has finished in [345] ms
+07-Mar-2023 15:06:05.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] de la aplicación web
+07-Mar-2023 15:06:05.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\host-manager] has finished in [44] ms
+07-Mar-2023 15:06:05.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] de la aplicación web
+07-Mar-2023 15:06:05.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\manager] has finished in [40] ms
+07-Mar-2023 15:06:05.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] de la aplicación web
+07-Mar-2023 15:06:05.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\webapps\ROOT] has finished in [15] ms
+07-Mar-2023 15:06:05.475 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 15:06:05.527 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2092] milliseconds
+07-Mar-2023 15:08:30.261 WARNING [http-nio-8080-exec-10] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+07-Mar-2023 15:08:30.261 WARNING [http-nio-8080-exec-10] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+07-Mar-2023 15:08:30.771 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ASaber]
+07-Mar-2023 15:08:42.907 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+07-Mar-2023 15:08:42.907 WARNING [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+07-Mar-2023 15:08:43.016 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 15:08:43.020 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [128] ms
+07-Mar-2023 15:08:43.021 INFO [http-nio-8080-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ASaber]] after start() had already been called. The second call will be ignored.
+07-Mar-2023 15:43:15.528 WARNING [http-nio-8080-exec-19] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+07-Mar-2023 15:43:15.529 WARNING [http-nio-8080-exec-19] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+07-Mar-2023 15:43:16.033 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ASaber]
+07-Mar-2023 15:43:23.719 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml]
+07-Mar-2023 15:43:23.720 WARNING [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ASaber] in deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has been ignored
+07-Mar-2023 15:43:23.868 INFO [http-nio-8080-exec-14] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Mar-2023 15:43:23.868 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [J:\Universidad\Proyecto\ASaber\apache-tomcat-9.0.60\conf\Catalina\localhost\ASaber.xml] has finished in [149] ms
+07-Mar-2023 15:43:23.875 INFO [http-nio-8080-exec-22] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ASaber]] after start() had already been called. The second call will be ignored.
+07-Mar-2023 16:34:15.784 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+07-Mar-2023 16:34:15.784 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 16:34:15.797 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+07-Mar-2023 16:34:15.844 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ASaber] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+07-Mar-2023 16:34:15.844 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ASaber] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:537)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+07-Mar-2023 16:34:15.860 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2023 16:34:15.876 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

@@ -1,0 +1,22 @@
+.propiedad{
+    
+    background-color: blueviolet;
+    color: #fff;
+    width: 80px;
+    height: auto;
+    padding: .5em;
+    border-radius: 3px;
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+    transition: .2s ease;
+    
+}
+
+.propiedad:hover{
+    background-color: #ef6161;
+}
+
+.active{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}

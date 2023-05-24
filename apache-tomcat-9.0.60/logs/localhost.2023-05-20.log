@@ -1,0 +1,1410 @@
+20-May-2023 13:08:06.466 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-May-2023 13:08:06.466 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-May-2023 13:08:06.471 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3f672204')
+20-May-2023 13:50:16.095 SEVERE [http-nio-8080-exec-24] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/reservaAreaComun.jsp] en línea [74]
+
+71:             <tbody id="tablaReservas">
+72:              <%
+73:              ReservaDAO resDao = new ReservaDAO();
+74:              ArrayList<ReservaVO> reservas = resDao.obtenerReservas(Integer.parseInt(session.getAttribute("personaID").toString()));
+75:              for (ReservaVO reserva : reservas) {
+76:                    for (AreaComunVO area : areas) {
+77:                    if(reserva.getAreaComunID() == area.getAreaComunID()){
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.reservaAreaComun_jsp._jspService(reservaAreaComun_jsp.java:210)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:16.891 SEVERE [http-nio-8080-exec-26] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/reservaAreaComun.jsp] en línea [74]
+
+71:             <tbody id="tablaReservas">
+72:              <%
+73:              ReservaDAO resDao = new ReservaDAO();
+74:              ArrayList<ReservaVO> reservas = resDao.obtenerReservas(Integer.parseInt(session.getAttribute("personaID").toString()));
+75:              for (ReservaVO reserva : reservas) {
+76:                    for (AreaComunVO area : areas) {
+77:                    if(reserva.getAreaComunID() == area.getAreaComunID()){
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.reservaAreaComun_jsp._jspService(reservaAreaComun_jsp.java:210)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:18.674 SEVERE [http-nio-8080-exec-27] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/reservaAreaComun.jsp] en línea [74]
+
+71:             <tbody id="tablaReservas">
+72:              <%
+73:              ReservaDAO resDao = new ReservaDAO();
+74:              ArrayList<ReservaVO> reservas = resDao.obtenerReservas(Integer.parseInt(session.getAttribute("personaID").toString()));
+75:              for (ReservaVO reserva : reservas) {
+76:                    for (AreaComunVO area : areas) {
+77:                    if(reserva.getAreaComunID() == area.getAreaComunID()){
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.reservaAreaComun_jsp._jspService(reservaAreaComun_jsp.java:210)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:20.390 SEVERE [http-nio-8080-exec-32] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/reservaAreaComun.jsp] en línea [74]
+
+71:             <tbody id="tablaReservas">
+72:              <%
+73:              ReservaDAO resDao = new ReservaDAO();
+74:              ArrayList<ReservaVO> reservas = resDao.obtenerReservas(Integer.parseInt(session.getAttribute("personaID").toString()));
+75:              for (ReservaVO reserva : reservas) {
+76:                    for (AreaComunVO area : areas) {
+77:                    if(reserva.getAreaComunID() == area.getAreaComunID()){
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.reservaAreaComun_jsp._jspService(reservaAreaComun_jsp.java:210)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:21.218 SEVERE [http-nio-8080-exec-28] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/reservaAreaComun.jsp] en línea [74]
+
+71:             <tbody id="tablaReservas">
+72:              <%
+73:              ReservaDAO resDao = new ReservaDAO();
+74:              ArrayList<ReservaVO> reservas = resDao.obtenerReservas(Integer.parseInt(session.getAttribute("personaID").toString()));
+75:              for (ReservaVO reserva : reservas) {
+76:                    for (AreaComunVO area : areas) {
+77:                    if(reserva.getAreaComunID() == area.getAreaComunID()){
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.reservaAreaComun_jsp._jspService(reservaAreaComun_jsp.java:210)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:21.521 SEVERE [http-nio-8080-exec-33] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/reservaAreaComun.jsp] en línea [74]
+
+71:             <tbody id="tablaReservas">
+72:              <%
+73:              ReservaDAO resDao = new ReservaDAO();
+74:              ArrayList<ReservaVO> reservas = resDao.obtenerReservas(Integer.parseInt(session.getAttribute("personaID").toString()));
+75:              for (ReservaVO reserva : reservas) {
+76:                    for (AreaComunVO area : areas) {
+77:                    if(reserva.getAreaComunID() == area.getAreaComunID()){
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.reservaAreaComun_jsp._jspService(reservaAreaComun_jsp.java:210)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:21.809 SEVERE [http-nio-8080-exec-25] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/reservaAreaComun.jsp] en línea [74]
+
+71:             <tbody id="tablaReservas">
+72:              <%
+73:              ReservaDAO resDao = new ReservaDAO();
+74:              ArrayList<ReservaVO> reservas = resDao.obtenerReservas(Integer.parseInt(session.getAttribute("personaID").toString()));
+75:              for (ReservaVO reserva : reservas) {
+76:                    for (AreaComunVO area : areas) {
+77:                    if(reserva.getAreaComunID() == area.getAreaComunID()){
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.reservaAreaComun_jsp._jspService(reservaAreaComun_jsp.java:210)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:22.802 SEVERE [http-nio-8080-exec-29] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/reservaAreaComun.jsp] en línea [74]
+
+71:             <tbody id="tablaReservas">
+72:              <%
+73:              ReservaDAO resDao = new ReservaDAO();
+74:              ArrayList<ReservaVO> reservas = resDao.obtenerReservas(Integer.parseInt(session.getAttribute("personaID").toString()));
+75:              for (ReservaVO reserva : reservas) {
+76:                    for (AreaComunVO area : areas) {
+77:                    if(reserva.getAreaComunID() == area.getAreaComunID()){
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.reservaAreaComun_jsp._jspService(reservaAreaComun_jsp.java:210)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:23.441 SEVERE [http-nio-8080-exec-24] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/reservaAreaComun.jsp] en línea [74]
+
+71:             <tbody id="tablaReservas">
+72:              <%
+73:              ReservaDAO resDao = new ReservaDAO();
+74:              ArrayList<ReservaVO> reservas = resDao.obtenerReservas(Integer.parseInt(session.getAttribute("personaID").toString()));
+75:              for (ReservaVO reserva : reservas) {
+76:                    for (AreaComunVO area : areas) {
+77:                    if(reserva.getAreaComunID() == area.getAreaComunID()){
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.reservaAreaComun_jsp._jspService(reservaAreaComun_jsp.java:210)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:23.632 SEVERE [http-nio-8080-exec-31] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/reservaAreaComun.jsp] en línea [74]
+
+71:             <tbody id="tablaReservas">
+72:              <%
+73:              ReservaDAO resDao = new ReservaDAO();
+74:              ArrayList<ReservaVO> reservas = resDao.obtenerReservas(Integer.parseInt(session.getAttribute("personaID").toString()));
+75:              for (ReservaVO reserva : reservas) {
+76:                    for (AreaComunVO area : areas) {
+77:                    if(reserva.getAreaComunID() == area.getAreaComunID()){
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.reservaAreaComun_jsp._jspService(reservaAreaComun_jsp.java:210)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:23.843 SEVERE [http-nio-8080-exec-26] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/reservaAreaComun.jsp] en línea [74]
+
+71:             <tbody id="tablaReservas">
+72:              <%
+73:              ReservaDAO resDao = new ReservaDAO();
+74:              ArrayList<ReservaVO> reservas = resDao.obtenerReservas(Integer.parseInt(session.getAttribute("personaID").toString()));
+75:              for (ReservaVO reserva : reservas) {
+76:                    for (AreaComunVO area : areas) {
+77:                    if(reserva.getAreaComunID() == area.getAreaComunID()){
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.reservaAreaComun_jsp._jspService(reservaAreaComun_jsp.java:210)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:24.034 SEVERE [http-nio-8080-exec-30] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/reservaAreaComun.jsp] en línea [74]
+
+71:             <tbody id="tablaReservas">
+72:              <%
+73:              ReservaDAO resDao = new ReservaDAO();
+74:              ArrayList<ReservaVO> reservas = resDao.obtenerReservas(Integer.parseInt(session.getAttribute("personaID").toString()));
+75:              for (ReservaVO reserva : reservas) {
+76:                    for (AreaComunVO area : areas) {
+77:                    if(reserva.getAreaComunID() == area.getAreaComunID()){
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.reservaAreaComun_jsp._jspService(reservaAreaComun_jsp.java:210)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:24.199 SEVERE [http-nio-8080-exec-27] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/reservaAreaComun.jsp] en línea [74]
+
+71:             <tbody id="tablaReservas">
+72:              <%
+73:              ReservaDAO resDao = new ReservaDAO();
+74:              ArrayList<ReservaVO> reservas = resDao.obtenerReservas(Integer.parseInt(session.getAttribute("personaID").toString()));
+75:              for (ReservaVO reserva : reservas) {
+76:                    for (AreaComunVO area : areas) {
+77:                    if(reserva.getAreaComunID() == area.getAreaComunID()){
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.reservaAreaComun_jsp._jspService(reservaAreaComun_jsp.java:210)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:35.830 SEVERE [http-nio-8080-exec-28] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at Controller.MainController.doPost(MainController.java:338)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:38.735 SEVERE [http-nio-8080-exec-32] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at Controller.MainController.doPost(MainController.java:338)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:50:39.818 SEVERE [http-nio-8080-exec-33] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at Controller.MainController.doPost(MainController.java:338)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 13:52:30.968 SEVERE [http-nio-8080-exec-33] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.NumberFormatException: Cannot parse null string
+		at java.base/java.lang.Integer.parseInt(Integer.java:630)
+		at java.base/java.lang.Integer.parseInt(Integer.java:786)
+		at Controller.MainController.doPost(MainController.java:382)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 14:30:03.583 SEVERE [http-nio-8080-exec-100] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/crearIncidencia.jsp] en línea [41]
+
+38:             <tbody id="tablaIncidencias">     
+39:                 <%
+40:                 IncidenciaDAO indao =new IncidenciaDAO();
+41:                 ArrayList<IncidenciaVO> incidencias = indao.obtenerIncidencias(Integer.parseInt(session.getAttribute("personaID").toString()));
+42:                 for (IncidenciaVO incidencia : incidencias) {
+43:                     %>
+44:                     <tr>
+
+
+Stacktrace:] con causa raíz
+	java.sql.SQLException: Column 'incidenciaID' not found.
+		at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+		at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+		at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+		at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+		at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2719)
+		at Model.DAO.IncidenciaDAO.obtenerIncidencias(IncidenciaDAO.java:59)
+		at org.apache.jsp.crearIncidencia_jsp._jspService(crearIncidencia_jsp.java:164)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 15:23:30.375 SEVERE [http-nio-8080-exec-154] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/verIncidencias.jsp] en línea [33]
+
+30:                 IncidenciaDAO indao =new IncidenciaDAO();
+31:                 PersonaDAO pedao = new PersonaDAO();
+32:          
+33:                 ArrayList<IncidenciaVO> incidencias = indao.obtenerIncidenciasCompletas(Integer.parseInt(session.getAttribute("conjuntoD").toString()));
+34:                 for (IncidenciaVO incidencia : incidencias) {
+35:                            PersonaVO persona = pedao.obtenerInformacionPersona(incidencia.getPersonaID());
+36:                     %>
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.verIncidencias_jsp._jspService(verIncidencias_jsp.java:155)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 15:37:33.316 SEVERE [http-nio-8080-exec-193] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.NumberFormatException: Cannot parse null string
+		at java.base/java.lang.Integer.parseInt(Integer.java:630)
+		at java.base/java.lang.Integer.parseInt(Integer.java:786)
+		at Controller.MainController.doPost(MainController.java:489)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 15:54:07.956 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+20-May-2023 15:54:07.956 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+20-May-2023 18:02:17.216 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-May-2023 18:02:17.217 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-May-2023 18:02:17.221 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@74075134')
+20-May-2023 18:45:16.215 SEVERE [http-nio-8080-exec-132] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/verReservas.jsp] en línea [37]
+
+34:                 PersonaDAO perdao = new PersonaDAO();
+35:                 ArrayList<AreaComunVO> areas = acdao.obtenerAreas();
+36:                 ReservaDAO resDao = new ReservaDAO();
+37:                 ArrayList<ReservaVO> reservas = resDao.obtenerReservasPorConjunto(Integer.parseInt(session.getAttribute("conjuntoID").toString()));
+38:                 for (ReservaVO reserva : reservas) {
+39:                     for (AreaComunVO area : areas) {
+40:                         if (reserva.getAreaComunID() == area.getAreaComunID()) {
+
+
+Stacktrace:] con causa raíz
+	com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'conjuntoID' in 'where clause'
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+		at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+		at com.mysql.jdbc.Util.getInstance(Util.java:381)
+		at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031)
+		at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+		at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+		at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+		at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+		at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+		at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+		at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+		at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1888)
+		at Model.DAO.ReservaDAO.obtenerReservasPorConjunto(ReservaDAO.java:121)
+		at org.apache.jsp.verReservas_jsp._jspService(verReservas_jsp.java:164)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 18:46:47.331 SEVERE [http-nio-8080-exec-140] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [verReservas.jsp] en línea [37]
+
+34:                 PersonaDAO perdao = new PersonaDAO();
+35:                 ArrayList<AreaComunVO> areas = acdao.obtenerAreas();
+36:                 ReservaDAO resDao = new ReservaDAO();
+37:                 ArrayList<ReservaVO> reservas = resDao.obtenerReservasPorConjunto(Integer.parseInt(session.getAttribute("conjuntoID").toString()));
+38:                 for (ReservaVO reserva : reservas) {
+39:                     for (AreaComunVO area : areas) {
+40:                         if (reserva.getAreaComunID() == area.getAreaComunID()) {
+
+
+Stacktrace:] con causa raíz
+	java.lang.NoSuchMethodError: 'java.util.ArrayList Model.DAO.ReservaDAO.obtenerReservasPorConjunto(int)'
+		at org.apache.jsp.verReservas_jsp._jspService(verReservas_jsp.java:164)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:12:55.010 SEVERE [http-nio-8080-exec-181] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.IllegalStateException: No puedo llamar a sendRedirect() tras llevar a cabo la respuesta
+		at org.apache.catalina.connector.ResponseFacade.sendRedirect(ResponseFacade.java:488)
+		at Controller.MainController.doGet(MainController.java:97)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:13:12.553 SEVERE [http-nio-8080-exec-176] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.IllegalStateException: No puedo llamar a sendRedirect() tras llevar a cabo la respuesta
+		at org.apache.catalina.connector.ResponseFacade.sendRedirect(ResponseFacade.java:488)
+		at Controller.MainController.doGet(MainController.java:97)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:18:10.838 SEVERE [http-nio-8080-exec-206] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "modulo" is null
+		at Controller.MainController.doPost(MainController.java:130)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:18:13.985 SEVERE [http-nio-8080-exec-194] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "modulo" is null
+		at Controller.MainController.doPost(MainController.java:130)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:18:15.757 SEVERE [http-nio-8080-exec-201] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "modulo" is null
+		at Controller.MainController.doPost(MainController.java:130)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:18:18.488 SEVERE [http-nio-8080-exec-196] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "modulo" is null
+		at Controller.MainController.doPost(MainController.java:130)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:18:20.501 SEVERE [http-nio-8080-exec-193] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "modulo" is null
+		at Controller.MainController.doPost(MainController.java:130)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:18:22.587 SEVERE [http-nio-8080-exec-192] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "modulo" is null
+		at Controller.MainController.doPost(MainController.java:130)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:18:23.138 SEVERE [http-nio-8080-exec-202] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "modulo" is null
+		at Controller.MainController.doPost(MainController.java:130)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:18:23.268 SEVERE [http-nio-8080-exec-203] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "modulo" is null
+		at Controller.MainController.doPost(MainController.java:130)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:18:54.817 SEVERE [http-nio-8080-exec-205] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() para servlet [MainController] lanzó excepción
+	java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "modulo" is null
+		at Controller.MainController.doPost(MainController.java:130)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:31:23.408 SEVERE [http-nio-8080-exec-230] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/verIncidencias.jsp] en línea [34]
+
+31:                 IncidenciaDAO indao =new IncidenciaDAO();
+32:                 PersonaDAO pedao = new PersonaDAO();
+33:          
+34:                 ArrayList<IncidenciaVO> incidencias = indao.obtenerIncidenciasCompletas(Integer.parseInt(session.getAttribute("conjuntoID").toString()));
+35:                 for (IncidenciaVO incidencia : incidencias) {
+36:                            PersonaVO persona = pedao.obtenerInformacionPersona(incidencia.getPersonaID());
+37:                     %>
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.verIncidencias_jsp._jspService(verIncidencias_jsp.java:156)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:31:24.503 SEVERE [http-nio-8080-exec-228] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/verIncidencias.jsp] en línea [34]
+
+31:                 IncidenciaDAO indao =new IncidenciaDAO();
+32:                 PersonaDAO pedao = new PersonaDAO();
+33:          
+34:                 ArrayList<IncidenciaVO> incidencias = indao.obtenerIncidenciasCompletas(Integer.parseInt(session.getAttribute("conjuntoID").toString()));
+35:                 for (IncidenciaVO incidencia : incidencias) {
+36:                            PersonaVO persona = pedao.obtenerInformacionPersona(incidencia.getPersonaID());
+37:                     %>
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.verIncidencias_jsp._jspService(verIncidencias_jsp.java:156)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:31:25.463 SEVERE [http-nio-8080-exec-233] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/verIncidencias.jsp] en línea [34]
+
+31:                 IncidenciaDAO indao =new IncidenciaDAO();
+32:                 PersonaDAO pedao = new PersonaDAO();
+33:          
+34:                 ArrayList<IncidenciaVO> incidencias = indao.obtenerIncidenciasCompletas(Integer.parseInt(session.getAttribute("conjuntoID").toString()));
+35:                 for (IncidenciaVO incidencia : incidencias) {
+36:                            PersonaVO persona = pedao.obtenerInformacionPersona(incidencia.getPersonaID());
+37:                     %>
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.verIncidencias_jsp._jspService(verIncidencias_jsp.java:156)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:31:25.789 SEVERE [http-nio-8080-exec-227] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/administracionConjuntos] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/verIncidencias.jsp] en línea [34]
+
+31:                 IncidenciaDAO indao =new IncidenciaDAO();
+32:                 PersonaDAO pedao = new PersonaDAO();
+33:          
+34:                 ArrayList<IncidenciaVO> incidencias = indao.obtenerIncidenciasCompletas(Integer.parseInt(session.getAttribute("conjuntoID").toString()));
+35:                 for (IncidenciaVO incidencia : incidencias) {
+36:                            PersonaVO persona = pedao.obtenerInformacionPersona(incidencia.getPersonaID());
+37:                     %>
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.verIncidencias_jsp._jspService(verIncidencias_jsp.java:156)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 19:40:48.020 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+20-May-2023 19:40:48.020 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+20-May-2023 19:40:54.130 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-May-2023 19:40:54.130 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-May-2023 19:40:54.133 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7ce7e83c')
+20-May-2023 19:42:53.819 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+20-May-2023 19:42:53.819 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+20-May-2023 19:42:59.123 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-May-2023 19:42:59.123 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-May-2023 19:42:59.125 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@29852487')
+20-May-2023 19:43:41.386 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+20-May-2023 19:43:41.386 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+20-May-2023 19:44:49.443 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-May-2023 19:44:49.443 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-May-2023 19:44:49.445 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@26f96b85')
+20-May-2023 19:46:48.912 SEVERE [http-nio-8080-exec-24] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/verIncidencias.jsp] en línea [34]
+
+31:                 IncidenciaDAO indao =new IncidenciaDAO();
+32:                 PersonaDAO pedao = new PersonaDAO();
+33:          
+34:                 ArrayList<IncidenciaVO> incidencias = indao.obtenerIncidenciasCompletas(Integer.parseInt(session.getAttribute("conjuntoID").toString()));
+35:                 for (IncidenciaVO incidencia : incidencias) {
+36:                            PersonaVO persona = pedao.obtenerInformacionPersona(incidencia.getPersonaID());
+37:                     %>
+
+
+Stacktrace:] con causa raíz
+	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.http.HttpSession.getAttribute(String)" is null
+		at org.apache.jsp.verIncidencias_jsp._jspService(verIncidencias_jsp.java:156)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-May-2023 20:49:06.393 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+20-May-2023 20:49:06.393 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
